@@ -5,6 +5,6 @@ urlpatterns = [
     path('login/',LoginView.as_view(),name='login'),
     path('profile/<int:pk>/',ProfileView.as_view(),name='profile'),
     path('users/<int:pk>/',UserView.as_view(),name='userview'),
-    path('users/',UserView.as_view(),name='userview'),
+    
 
 ]
